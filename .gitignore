@@ -1,0 +1,38 @@
+# Bluetooth captures and bug reports: never commit, they carry device addresses
+*.btsnoop
+btsnoop_hci*.log*
+*.pcap
+*.pcapng
+*.cfa
+bugreport*.zip
+bugreport*.txt
+captures/
+
+# Signing material and secrets
+*.jks
+*.keystore
+*.p12
+*.p8
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+keystore.properties
+local.properties
+.env
+.env.*
+
+# Build output
+target/
+build/
+.gradle/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+dist/
+
+# Editors and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
